@@ -8,6 +8,7 @@
 * will return V1 and V2.
 */
 
+<<<<<<< HEAD
 #include <stdio.h>
 
 
@@ -23,3 +24,7 @@ int main(){
 
   printf("Your values are : %lf %lf %lf",&a, &b, &c);
 }
+=======
+//this work
+//Wimsatt - I am attempting to add something to this.
+>>>>>>> 281df875657af44d72b938f1b08cd76ee9a477b5
