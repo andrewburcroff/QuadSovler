@@ -8,4 +8,18 @@
 * will return V1 and V2.
 */
 
-//this work
+#include <stdio.h>
+
+
+int main(){
+  printf("This is our Project Quad Sovler\n");
+  printf("Please enter the value for a\n");
+  double a, b,c;
+  scanf("%lf",&a);
+  printf("Please enter the value for b\n");
+  scanf("%lf",&b);
+  printf("Please enter the value for c\n");
+  scanf("%lf",&c);
+
+  printf("Your values are : %lf %lf %lf",&a, &b, &c);
+}
