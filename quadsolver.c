@@ -8,23 +8,21 @@
 * will return V1 and V2.
 */
 
-<<<<<<< HEAD
-#include <stdio.h>
-
+#include<stdio.h>
+#include<math.h>
 
 int main(){
-  printf("This is our Project Quad Sovler\n");
-  printf("Please enter the value for a\n");
-  double a, b,c;
-  scanf("%lf",&a);
-  printf("Please enter the value for b\n");
-  scanf("%lf",&b);
-  printf("Please enter the value for c\n");
-  scanf("%lf",&c);
+  float a,b,c;
+  float d,root1,root2;
 
-  printf("Your values are : %lf %lf %lf",&a, &b, &c);
+  printf("Enter a for the quadratic equation: ");
+  scanf("%f",&a);
+  printf("Enter b for the quadratic equation: ");
+  scanf("%f",&b);
+  printf("Enter c for the quadratic equation: ");
+  scanf("%f",&c);
+
+  printf("%f %f %f\n",&a , &b, &c);
 }
-=======
 //this work
 //Wimsatt - I am attempting to add something to this.
->>>>>>> 281df875657af44d72b938f1b08cd76ee9a477b5
