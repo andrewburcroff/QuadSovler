@@ -13,7 +13,6 @@
 
 int main(){
   float a,b,c;
-  float d,root1,root2;
 
   printf("Enter a for the quadratic equation: ");
   scanf("%f",&a);
