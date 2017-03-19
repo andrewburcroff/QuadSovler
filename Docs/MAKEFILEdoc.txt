@@ -1,0 +1,7 @@
+The MAKEFILE in the main directory will go into each subdirectory
+and create the object files in each one from each directories MAKEFILE
+then all the object files will be copied into the parent directory so as to
+compile the executable this done by the command "make build" then in order to run
+the program you run the command "make run"
+the command "make list" will give you a list of all the files in the directories
+the command "make clean" to get rid of all the object files

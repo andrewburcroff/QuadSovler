@@ -1,0 +1,2 @@
+All you need to do run the command "make build" the build directory 
+
