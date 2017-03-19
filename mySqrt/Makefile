@@ -6,5 +6,13 @@ CC = gcc
 
 mySqrt.o: mySqrt.c mySqrt.h
 
+test: mySqrt.o
+	${CC} ${CFLAGS} -o mySqrtTester mySqrtTester.c mySqrt.o ${LIBS}
+	./mySqrtTester > TestOuput.txt
+
+debug: mySqrt.o
+	${CC} ${CFLAGS} -o mySqrtTester mySqrtTester.c mySqrt.o ${LIBS}
+	gdb mySqrtTester
+
 clean:
 	rm *.o
