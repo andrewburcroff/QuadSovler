@@ -1,0 +1,31 @@
+README
+
+Getting Started
+
+This method will call three parameters. It will find the discriminant or what is in the square root part of the equation. Then it print the discriminant, and return that value that it represents. First, it figure out the discriminant for by being the square part of the equation. Then, it print out the value of the discriminant. Finally, it  will return discriminant  value.
+	
+Installing
+	In Order for this program to run it will need: mysqrt, q.solve , IO and main .c files.  	
+
+Running the tests
+
+Input: float a = 1, float b = 2 , and float c = 1
+
+float getDiscriminant(float a, float b, float c) {
+	float discriminant = b*b-(4*a*c);
+	printf("discriminant is %.8lf\n", discriminant);
+	return discriminant;
+}
+
+Output: return = 0
+
+Authors
+	Stephen Wimsatt
+	Max Ellsberry
+	Andrew Burcroff
+	Mohammed Rasak
+	
+License
+	This project is licensed under the WMU License.
+Acknowledgments
+	Dr. Kapenga of Western Michigan University Computer Science. 
