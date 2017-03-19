@@ -2,7 +2,12 @@ README
 
 Getting Started
 
-This method will call three parameters. It will find the discriminant or what is in the square root part of the equation. Then it print the discriminant, and return that value that it represents. First, it figure out the discriminant for by being the square part of the equation. Then, it print out the value of the discriminant. Finally, it  will return discriminant  value.
+This method will call three parameters. 
+It will find the discriminant or what is in the square root part of the equation. 
+Then it prints the discriminant, and return the value that it represents. 
+First, it figure out the discriminant for by being the square part of the equation. 
+Then, it prints out the value of the discriminant. 
+Finally, it  will return discriminant value.
 	
 Installing
 	In Order for this program to run it will need: mysqrt, q.solve , IO and main .c files.  	
