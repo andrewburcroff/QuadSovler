@@ -1,7 +1,10 @@
 README
 
 Getting Started
-	This file will the three floats that the user inputed will complete the square root. It will determine if the discriminant is greater than it will figure out the square root of the values. If the discriminant is equal to 0 then it will return -b divide 2 and times it by a. Finally, if the discriminant is negative then it will return a negative one. This will be done twice for both roots. 
+	This file will calculate square root from the 3 floats given from the user. 
+	If the discriminant is greater than zero it will figure out the square root of the values. 
+	If the discriminant is equal to 0 then it will return -b divide 2 and times it by a. 
+	If the discriminant is negative then it will return a negative one. This will be done twice for both roots. 
 
 Installing
 	In Order for this program to run it will need: mysqrt, q.solve , IO and main .c files.  	
