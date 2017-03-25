@@ -1,2 +1,5 @@
-All you need to do run the command "make build" the build directory 
+Once you have downloaded the 'QuadSovler' zipped file unzip the files to your desired directory.
+Open a new shell and cd into the directory where you have extracted the files, and then cd into the 'Build' directory.
+From the build directory use the command 'make build'.  This will build the dependecy files and place them in the build directory.
+Once all the files are compiled, use 'make run' to run the program. 
 
