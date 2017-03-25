@@ -1,3 +1,1 @@
-This program will not recieve any updates after release
-we are only concerned with making a final product and nothing more
-because this will not be supported any further than release
+This program will not be supported beyond the first release. Therefore, no updates will occur.
