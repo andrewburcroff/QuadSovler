@@ -1,0 +1,25 @@
+Quad Solver 
+
+Basics: In this documentation, we code the quadratic solver, ax^2 + bx + c =0, we ask the user to input values they like
+input into the equation. Then the program runs with output two roots if complicate on the interface. 
+
+First the IO takes user inputs from the user. There should be 3 inputs that program will take in as floats in this case. 
+If the number is invalid it will say that the input entered is invalid and ask the user to input correct input that is valid.
+
+Next the main calls the IO to get the input. Then the main sends that input to qSolve, where this uses the three inputs as 
+a, b, c. It completes the part of the quadratic equation under the square root.  This part is the b^2-(4*a*c). Then the method
+saves this part as the discriminant for the remainder of the program. Then qSolve returns the discriminant. 
+
+Next, the Main gets the discriminant and sends a, b and discriminant to the mySqrt class where it will try to find the roots. 
+First, it will find the first root by comparing the discriminant to be greater than 0.  If so then it will take the negative 
+of b and adding the square root of the discriminant then dividing the entire thing by 2*a. If the discriminant is equal to 0 
+then, it will take the negative of b and it will divide it by 2 *a.  If the discriminant is less than 0 then it will return a 
+negative 1. Then we will need to find the other root which we will do  very similar to root 1 but in case where discriminant 
+is greater than 0 it will be taking the negative of b and subtracting the square root of the discriminant then dividing the 
+entire thing by 2*a. Both other cases are similar.
+
+Once Main gets the return form mySqrt, it will send it to the output class where it print it off and determining if one root
+is equaling to negative 1 then it will say the root is complexing and write it out. If the root is not complex then it will
+say that it is not complex and print off the root.
+
+After this you can see how our Quad solver works in great detail. 
