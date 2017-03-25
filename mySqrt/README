@@ -1,0 +1,35 @@
+README
+
+Getting Started
+	This file will calculate square root from the 3 floats given from the user. 
+	If the discriminant is greater than zero it will figure out the square root of the values. 
+	If the discriminant is equal to 0 then it will return -b divide 2 and times it by a. 
+	If the discriminant is negative then it will return a negative one. This will be done twice for both roots. 
+
+Installing
+	In Order for this program to run it will need: mysqrt, q.solve , IO and main .c files.  	
+
+Running the tests
+
+input: float a = 12.32, float b = 3.45 and float discriminant = -2
+
+float  find the Root 1 (float a, float b, float discriminant){
+	if(discriminant > 0)
+		return (-b +sqrt(discriminant))/(2*a);
+	else if(discriminant ==0)
+		return -b/2*a;
+	else
+		print(“discriminant is is negative\n”);
+		return -1;
+}
+
+Then it will return the last option 3 where it is negative and return a value of “-1” and “ Discriminant is negative”.
+
+Authors
+	Stephen Wimsatt
+	Max Ellsberry
+	
+License
+	This project is licensed under the WMU License.
+Acknowledgments
+	Dr. Kapenga of Western Michigan University Computer Science. 

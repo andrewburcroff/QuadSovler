@@ -1,0 +1,2 @@
+When it comes to the security of this project we fixed all the errors we found
+other than that there is no other security measure we took

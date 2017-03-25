@@ -1,0 +1,4 @@
+Once the program has been compiled and run, it will prompt the user for 3 non-negative floating point numbers.
+If a number is found to be invalid, the user will be prompted for a replacement.  
+Once 3 numbers have been accepted the program will automatically proceed to output the roots of the given numbers, unless a given root is complex, in which case the user will be notified that it is a complex root.
+Once the roots are output, the program closes.

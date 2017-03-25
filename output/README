@@ -1,0 +1,33 @@
+README
+
+Getting Started
+	This file contains one method will take in a float and int, then method will determine 	if the num is less than 0 it will say the float is complex. Else if the method will return 	the not complex.
+
+Installing
+	In Order for this program to run it will need: mysqrt, q.solve , IO and main .c files.  	Then main will send one float and one integer to this file called solution. The only 	method in the solution file, will check to see if the float is equal to -1, if so the the it 	will print off the root and number. This tells the user that this float is complex . Else 	the user is told the that the float is not- complex.
+
+Running the tests
+
+Input: float = 16.14 and num = -1
+
+Void checkSolution (float a, int num){
+	if(a==-1){
+		printf(“Root: %i \n”, num);
+	}
+	else {
+		print(“Root: %i%.7lf \n” num, a);
+	}
+}
+
+The output would be return -1 saying that the float wold be complex.
+
+Authors
+	Andrew Burcroff
+	Stephen Wimsatt
+
+License
+	This project is licensed under the WMU License.
+  
+Acknowledgments
+	Dr. Kapenga of Western Michigan University Computer Science. 
+
