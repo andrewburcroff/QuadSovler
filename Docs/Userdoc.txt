@@ -1,5 +1,4 @@
-In order to start the program you must first run the command "make build"
-then the command "make run"
-You will be prompted to enter in 3 nonegative floating point numbers 
-for example "1.0 2.0 3.0"
-depending on the input you will either get a good answer back or be told it is a complex root
+Once the program has been compiled and run, it will prompt the user for 3 non-negative floating point numbers.
+If a number is found to be invalid, the user will be prompted for a replacement.  
+Once 3 numbers have been accepted the program will automatically proceed to output the roots of the given numbers, unless a given root is complex, in which case the user will be notified that it is a complex root.
+Once the roots are output, the program closes.
