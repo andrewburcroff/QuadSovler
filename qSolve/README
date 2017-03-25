@@ -1,5 +1,14 @@
 README
 
+ The Main gets the discriminant and sends a, b and discriminant to the mySqrt class where it will try to find the roots.
+ First, it will find the first root by comparing the discriminant to be greater than 0.  If so then it will take the 
+ negative of b and adding the square root of the discriminant then dividing the entire thing by 2*a. If the discriminant
+ is equal to 0 then, it will take the negative of b and it will divide it by 2 *a.  If the discriminant is less than 0 then 
+ it will return a negative 1. Then we will need to find the other root which we will do  very similar to root 1 but in
+ case where discriminant is greater than 0 it will be taking the negative of b and subtracting the square root
+ of the discriminant then dividing the entire thing by 2*a. Both other cases are similar.
+
+
 Getting Started
 
 This method will call three parameters. 
