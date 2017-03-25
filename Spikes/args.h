@@ -1,5 +1,4 @@
 //Credit to https://www.math.utah.edu/~beebe/software/ieee/ for program
-needs args.h to work
 #if (defined(__cplusplus) || defined(__STDC__) || defined(c_plusplus))
 #define ARGS(parenthesized_list) parenthesized_list
 #define STDC		1

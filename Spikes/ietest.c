@@ -3,6 +3,8 @@ Report sizeof() values, and the machine epsilon and smallest
 floating-point number, to investigate floating-point support.
 
 [21-Nov-2001]
+Credit to https://www.math.utah.edu/~beebe/software/ieee/ for program
+needs args.h to work
 ***********************************************************************/
 
 #include <stdio.h>
