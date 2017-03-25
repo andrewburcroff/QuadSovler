@@ -1,1 +1,2 @@
-This program is owned by Mohammed Rasak, Andrew Ryan Burcoff, Max Ellsberry and Stephen Louis Wimsatt
+This Quadsolver program is owned by Mohammed Rasak, Andrew Ryan Burcoff, Max Ellsberry and Stephen Louis Wimsatt
+for the purpose of being able to solve for the roots of 3 given coefficents of a quadratic equation for Senior Design 
