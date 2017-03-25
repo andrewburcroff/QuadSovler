@@ -1,5 +1,9 @@
 README
 
+the IO takes user inputs from the user. There should be 3 inputs that program will take in as floats in this case. 
+If the number is invalid it will say that the input entered is invalid and ask the user to input correct input that
+is valid.
+
 Getting Started
 	This file will calculate square root from the 3 floats given from the user. 
 	If the discriminant is greater than zero it will figure out the square root of the values. 
