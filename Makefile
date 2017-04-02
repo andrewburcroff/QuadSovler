@@ -9,7 +9,7 @@
 CFLAGS = -Wall -Wpedantic -std=c99
 LIBS = -lm
 CC = gcc
-BUILDDIR = ~/Documents/SeniorDesign/QuadSovler/Build
+BUILDDIR = ~/Documents/SeniorDesign/QuadSolverV2
 
 build: IO.o qSolve.o mySqrt.o output.o
 	cp ${BUILDDIR}/IO/IO.* ${BUILDDIR}
@@ -21,11 +21,16 @@ build: IO.o qSolve.o mySqrt.o output.o
 run: 
 	./QSolver
 
+unittest:
+	+$(MAKE) -C	IO testIO
+	+$(MAKE) -C qSolve testqSolve
+	+$(MAKE) -C	mySqrt	testmySqrt
+
 list:
 	cd ${BUILDDIR}/IO; ls
 	cd ${BUILDDIR}/qSolve; ls
 	cd ${BUILDDIR}/mySqrt; ls
-	cd ${BUILDDIR}/output; ls 
+	cd ${BUILDDIR}/output; ls
 	ls
 
 IO.o:
@@ -41,8 +46,9 @@ output.o:
 	+$(MAKE) -C output
 
 clean: 
-	cd ${BUILDDIR}/IO; rm *.o
-	cd ${BUILDDIR}/qSolve; rm *.o
-	cd ${BUILDDIR}/mySqrt; rm *.o
-	cd ${BUILDDIR}/output; rm *.o
+	+$(MAKE) -C	IO clean;
+	+$(MAKE) -C qSolve clean;
+	+$(MAKE) -C	mySqrt clean;
+	+$(MAKE) -C output clean;
+	rm IO.* output.* qSolve.* mySqrt.* QSolver
 	rm IO.* output.* qSolve.* mySqrt.* QSolver 
