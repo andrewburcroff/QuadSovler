@@ -1,0 +1,16 @@
+Unit Testing Standards
+
+IO Standards:
+	Test for valid input
+		Valid input is any non-negative float
+	Test for invalid input
+		Invalid input is any negative float or non-float character
+	Test for buffer overflow
+		Overflow occurs when any character string is greater than 100 characters
+
+qSolve Standards:
+	Verify that the algorithm for finding a discriminant is valid against accepted equations
+
+mySqrt Standards:
+	Verify that any discriminant greater than 0 returns the expected roots
+
