@@ -7,5 +7,11 @@ BUILDDIR = ~/Documents/SeniorDesign/QuadSovler
 
 IO.o:	IO.c IO.h	
 
+IOTest.o:	IOTest.c IOTest.h
+
+testIO:	IOTest.o
+	${CC} ${CFLAGS} -o IOTester TestMain.c IOTest.o ${LIBS}
+	./IOTester > TestOutput.txt
+
 clean:
-	rm *.o
+	rm *.o IOTester TestOutput.txt
